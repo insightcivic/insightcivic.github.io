@@ -4,55 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>InsightCivic</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    body {
-      background-color: #f0f0f0;
-      color: #333;
-    }
-    .navbar {
-      background-color: #000;
-    }
-    .navbar-brand, .navbar-nav .nav-link {
-      color: #fff;
-    }
-    h1 {
-      margin-top: 1rem;
-    }
-    .list-group-item {
-      background-color: #f0f0f0;
+    .bg-gray-900 {
+      background-color: #1a202c;
     }
   </style>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">InsightCivic</a>
-      <div class="navbar-collapse">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+<body class="bg-gray-100 text-gray-800">
+  <nav class="bg-gray-900 px-4 py-2">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <a class="text-white text-2xl font-bold" href="#">InsightCivic</a>
+        <ul class="flex space-x-4">
+          <li>
+            <a class="text-white" href="about.html">About Us</a>
+          </li>
+          <li>
+            <a class="text-white" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
-    <h1 class="text-center">Reference</h1>
-    <ul class="list-group">
-      <li class="list-group-item">
-        <a href="https://www.link1.com">Link 1</a>
-      </li>
-      <li class="list-group-item">
-        <a href="https://www.link2.com">Link 2</a>
-      </li>
-      <li class="list-group-item">
-        <a href="https://www.link3.com">Link 3</a>
-      </li>
-      <!-- Add more list items with links as needed -->
-    </ul>
-    <div class="mt-4">
+  <div class="container mx-auto px-4 mt-8">
+    <p class="mb-8">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper ligula et purus ullamcorper, a euismod neque iaculis. Cras bibendum turpis at eros venenatis, id cursus neque pulvinar.
+    </p>
+    <h2 class="text-2xl mb-4">Reference</h2>
+    <img class="w-full mb-4" src="https://via.placeholder.com/1000x300" alt="Placeholder Image">
+    <div class="grid grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl mb-4">Links</h3>
+        <ul class="list-none space-y-2">
+          <li>
+            <a href="https://www.link1.com">Link 1</a>
+          </li>
+          <li>
+            <a href="https://www.link2.com">Link 2</a>
+          </li>
+          <li>
+            <a href="https://www.link3.com">Link 3</a>
+          </li>
+          <!-- Add more list items with links as needed -->
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl mb-4">Documents</h3>
+        <ul class="list-none space-y-2">
+          <li>
+            <a href="https://www.document1.com">Document 1</a>
+          </li>
+          <li>
+            <a href="https://www.document2.com">Document 2</a>
+          </li>
+          <li>
+            <a href="https://www.document3.com">Document 3</a>
+          </li>
+          <!-- Add more list items with documents as needed -->
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8">
       <pre><code>
 function exampleCode() {
   console.log("This is an example code block.");
@@ -60,8 +74,5 @@ function exampleCode() {
       </code></pre>
     </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

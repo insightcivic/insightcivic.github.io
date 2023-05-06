@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - InsightCivic</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .bg-gray-900 {
+      background-color: #1a202c;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <nav class="bg-gray-900 px-4 py-2">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <a class="text-white text-2xl font-bold" href="#">InsightCivic</a>
+        <ul class="flex space-x-4">
+          <li>
+            <a class="text-white" href="about.hmtl">About Us</a>
+          </li>
+          <li>
+            <a class="text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto px-4 mt-8">
+    <h1 class="text-3xl mb-4">Contact Us</h1>
+    <p class="mb-8">If you have any questions, suggestions, or feedback, feel free to reach out to us through the contact form below.</p>
+    <form>
+	  <div class="mb-4">
+    <label for="name" class="block mb-2">Name</label>
+    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded">
+  </div>
+  <div class="mb-4">
+    <label for="email" class="block mb-2">Email</label>
+    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded">
+  </div>
+  <div class="mb-4">
+    <label for="message" class="block mb-2">Message</label>
+    <textarea id="message" rows="4" class="w-full p-2 border border-gray-300 rounded"></textarea>
+  </div>
+  <button type="submit" class="bg-gray-900 text-white py-2 px-4 rounded">Submit</button>
+</form>
+</div>
+</body>
+</html>
