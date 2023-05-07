@@ -1,4 +1,7 @@
-A crash course in Large Language Models (LLMs) would require you to understand the underlying principles of deep learning, natural language processing (NLP), and important models that led to the development of LLMs. Here's a suggested curriculum, covering seminal papers, foundational math, models, resources, and books.
+
+# A crash course in Large Language Models (LLMs) 
+
+A crash course in LLMs would require you to understand the underlying principles of deep learning, natural language processing (NLP), and important models that led to the development of LLMs. Here's a suggested curriculum, covering seminal papers, foundational math, models, resources, and books.
 
 1. **Foundational Math**
    - Linear algebra
