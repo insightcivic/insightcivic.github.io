@@ -1,4 +1,4 @@
 # InsightCivic Github
 
-[Crash Course in LLMs](llm.md)
+- [Crash Course in LLMs](llm.md)
 
